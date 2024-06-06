@@ -1,0 +1,539 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width:768px) and (max-width:1024px)
+{
+div.MenuHldr{
+	width:98%;
+	margin-left:1%;
+	margin-right:1%;		
+	}
+	div.MenuHldr div.LogoHldr {
+    width: 25%;
+	text-align: left;
+    
+}
+	div.MenuHldr div.LogoHldr img {
+    display: inline-block;
+}
+div.IndSrvd div.IndSrvdLst div.SrvdLst div.TltSctn {
+     display: block;
+}
+	div.Rezyplatform div.RFCntnt div.RFTxtCntnt, div.ProductSctn div.PrdctCntnt div.PrdctLstCntnt, div.RFCntnt,div.Rezyplatform div.REZYFeatures, div.REZY24 div.REZYFeatures {
+		width:98%;
+		margin-left:1%;
+		margin-right:1%;
+	}
+	div.RezyWrapper {    
+    max-width: 1000px;    
+}
+	div.Footer div.footerSctn{
+		width:98%;
+		margin-left:1%;
+		margin-right:1%;
+	}
+}
+
+@media only screen and (max-width:768px)
+{
+div.Rezy24BG, div.Rezy100BG, div.Rezy360BG{
+height:210px;
+}
+.menuactive
+{
+color:#2bb17f;
+font-family: 'Muli';
+font-size:14px;
+}
+.menuinactive
+{
+color:#ffffff;
+font-family: 'Muli';
+font-size:14px;	
+}	
+.menu
+{
+width:95%;
+font-size:60px;
+display:flex;
+cursor: pointer;
+margin-left:5%;
+}
+.menu a
+{
+color:#2bb17f;
+}
+
+div.MenuHldr div.Lstdropdown
+{
+	display:block;
+}
+div.MnHdr div.MainHdrSctn {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+div.MenuHldr div.LogoHldr {
+    width: 50%;
+    display: block;
+	margin: 0 auto;
+    padding: 20px 0 20px 0;
+	text-align: center;
+}
+div.MnHdr div.HdrSctn {
+    width: 100%;
+    display: inline-block;
+    text-align: center; 
+}
+div.MnHdr div.MainHdrSctn div.HdrSctn div.LftTopHdr {
+    width: 0%;
+    display: inline-block;
+}
+div.MnHdr div.MainHdrSctn div.HdrSctn div.RgtTopHdr {
+    width: 100%;
+    display: inline-block;
+}
+div.MnHdr div.MainHdrSctn div.HdrSctn div.RgtTopHdr div.Cart {
+    width: 18%;
+ }
+div.MnHdr div.MainHdrSctn div.HdrSctn div.RgtTopHdr div.Profile {
+    width: 50%; 
+}
+div.MnHdr div.MainHdrSctn div.HdrSctn div.RgtTopHdr div.LogoutBttn {
+    width: 28%;
+}
+div.MnHdr div.MainHdrSctn div.HdrSctn div.RgtTopHdr div.divider {
+    width: 4%;
+}
+.Lstdropdown {
+position: relative;
+display: inline-block;
+}
+.Lstdropdown-content {
+margin-left:4%;
+display: none;
+position: absolute;
+background-color: #141d35;
+min-width: 300px;
+z-index: 1;
+}
+.Lstdropdown-content a {
+color: #ffffff;
+padding: 16px 20px;
+text-decoration: none;
+display: block;
+font-family: 'Muli';
+font-size:18px;
+}
+.Lstdropdown-content a:hover 
+{
+background-color: #3a4253;
+color:#2bb17f;
+}
+.Lstdropdown:hover .Lstdropdown-content 
+{
+display: block;
+}
+.Lstdropdown:hover .menu a 
+{
+color: #2bb17f;
+}
+	div.MenuHldr div.NavMenu{
+		display:none;
+	}
+div.Experts div.Technology div.TchExpertsLst {
+    width: 100%; 
+	display: block;
+	padding: 20px 0 20px 0;
+}
+div.Experts div.Technology {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+div.IndSrvd div.IndSrvdLst div.MnTtlSctn {    
+    padding: 40px 0 20px 0;
+}
+div.IndSrvd div.IndSrvdLst div.SrvdLst {
+    width: 100%;	
+}
+div.IndSrvd div.IndSrvdLst div.SrvdLst div.LstSctn ul li {   
+    padding: 10px;    
+}
+div.ProductSctn div.PrdctCntnt div.MnSubTitle span.HdrSubTtl {
+       padding-bottom: 40px;
+}
+div.ProductSctn div.PrdctCntnt div.PrdctLstCntnt {
+    width: 98%;    
+	margin-left:1%;
+	margin-right:1%;
+}
+div.ProductSctn div.PrdctCntnt div.PrdctLstCntnt div.PrdctLst {
+    display: block;
+    border: 1px solid#141d35;
+    margin-bottom: 20px;
+	padding:0px;
+}
+div.ProductSctn div.PrdctCntnt div.PrdctLstCntnt div.PrdctLst div.PrdctIcon {
+    width: 100%;
+    display: inline-block;
+	text-align: center;
+	padding-top:30px;
+}
+div.ProductSctn div.PrdctCntnt div.PrdctLstCntnt div.PrdctLst div.PrdctTxtCntnt {
+    width: 100%;
+	display: inline-block;
+	padding-bottom:20px;
+}
+div.ProductSctn div.PrdctCntnt div.PrdctLstCntnt div.PrdctLst div.PrdctTxtCntnt div.PrdctLstTtl {
+    text-align: center;
+    vertical-align: top;
+    padding: 20px 0 20px 0;
+}
+div.ProductSctn div.PrdctCntnt div.PrdctLstCntnt div.PrdctLst div.PrdctTxtCntnt div.PrdtLstInnerTtl{
+	width:96%;
+	display:block;
+	margin-left:2%;
+	margin-right:2%;
+	}
+div.Rezyplatform div.RFCntnt div.RFTxtCntnt div.RFLftTxtCntnt, div.REZY24 div.RFCntnt div.RFTxtCntnt div.RFLftTxtCntnt, div.Rezyplatform div.RFCntnt div.RFTxtCntnt div.RFRgtTxtCntnt, div.REZY24 div.RFCntnt div.RFTxtCntnt div.RFRgtTxtCntnt {
+    width: 100%;
+    display: block;
+}
+div.Rezyplatform div.RFCntnt div.RFTxtCntnt div.RFLftTxtCntnt span.InnerTxtCntnt, div.REZY24 div.RFCntnt div.RFTxtCntnt div.RFLftTxtCntnt span.InnerTxtCntnt, div.Rezyplatform div.RFCntnt div.RFTxtCntnt div.RFRgtTxtCntnt span.InnerTxtCntnt, div.REZY24 div.RFCntnt div.RFTxtCntnt div.RFRgtTxtCntnt span.InnerTxtCntnt {
+     padding: 10px 5px 10px 5px;
+    
+}
+div.Rezyplatform div.REZYFeatures div.RFTtl {
+    text-align: center;
+    display: block;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid#141d35;
+}
+div.Rezyplatform div.REZYFeatures div.RFtrsCntnt, div.REZY24 div.REZYFeatures div.RFtrsCntnt {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    padding: 0;
+}
+div.Rezyplatform{
+    width: 100%;
+    display: block;
+	padding-top:40px;
+}
+div.SrvcsCntnt div.SrvcsCntnt div.SrvcsTxtCntnt div.SrvcsCntntTxt {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+	
+}
+div.SrvcsCntnt div.SrvcsCntnt div.SrvcsTxtCntnt div.SrvcsCntntTxt span.InnerTxtCntnt {
+  padding: 10px;
+}
+div.SrvcsCntnt div.SoftmgmtLogo, div.ContactCntnt div.ContactLogo, div.OfficesCntnt div.OfficesLogo{
+	padding-top: 10px;
+	}
+div.SrvcsCntnt div.SrvcsCntnt div.SrvcsTxtCntnt {
+	width:100%;
+	display: inline-block;
+	padding-bottom:10px;
+}
+input[type=button] {
+    width: 50%;    
+}
+input[type=textfield], select, placeholder {
+    width: 100%;
+	margin: 0;
+}
+input[type=textformfield] {
+    width: 100%;
+}
+div.CntctFrm .name, .email {   
+    width: 100%;
+	margin:0;  
+}
+div.CntctFrm .subject, div.CntctFrm .message {
+   width: 100%;
+}
+div.CntctFrm ul.FrmLst {
+    margin-left: -30px;    
+}
+input[type=sendbutton] {
+    width: 30%;
+	margin-left:10px;
+	}
+div.OfficesCntnt div.OfficesTxtCntnt div.OfficesCntntTxt {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 30px;
+}
+div.OfficesCntnt {
+    padding-bottom: 30px;
+}
+div.REZYFC div.FCLstCntnt div.FCLst {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+div.RezyWrapper {   
+    max-width: 1146px;    
+    width: 90%;  
+}
+div.REZY24 div.REZY100Lst div.RFtrsCntnt ul.RFTxtLst{
+    margin-left:-40px;
+}
+div.ProfileSctn div.ProfileLst div.LftMenuLst {
+    width: 100%;    
+    margin-right: 0;
+}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst {
+    width: 100%;    
+}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst .PrflFrmFld ul.LstTxtFld{ 
+	text-align: left;	
+}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst ul li.OHTxtFld #password
+{
+	width:100%;
+	margin-left:0;
+	
+}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst ul li.OHTxtFld
+	{
+		display:block;
+	}
+	div.ProfileSctn div.ProfileLst div.RgtMenuLst .PDFrmFld {
+		width:98%;
+		margin-left:1%;
+		margin-right:1%;
+	}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst .PDFrmFld ul {
+    margin-left:-40px;
+}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst ul li.TxtFld {
+    width: 100%;
+    display:block;
+}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst ul li.VisaDrpdwn {
+    width: 50%;
+    display: inline-block;
+}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst div.TCBttns div.LftBttn, div.ProfileSctn div.ProfileLst div.RgtMenuLst div.TCBttns div.RgtBttn {
+    width: 100%;
+    display: block;
+    text-align: center;	
+}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst div.PDChkboxFld div.PDChkBox {
+    width: 40%;
+    display: inline-block;
+}
+	div.ProfileSctn div.ProfileLst div.RgtMenuLst .PDFrmFld ul li.dummy{
+		display:none;
+	}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst ul li.OHTxtFld #Email
+{
+	margin-left:0;
+}
+div.QNRE div.TxtFieldSctn div.LftMenuLst {
+    width: 100%;
+    display: inline-block;    
+}
+div.QNRE div.TxtFieldSctn div.RgtMenuLst {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+}
+div.REVORD div.RevLst div.REVORDTtlSctn, div.QNRE div.REVORDTtlSctn {
+    width: 98%;
+	margin-left:1%;
+	margin-right:1%;
+	display: inline-block;
+    text-align: center;
+}
+div.QNRE div.REVORDSubTtlSctn {
+    width: 98%;
+	margin-left:1%;
+	margin-right:1%;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+ div.QNRE div.TxtFieldSctn {
+    width: 98%;
+	margin-left:1%;
+	margin-right:1%;
+    display: inline-block;
+}  
+input[type=QNREtextfield] {
+    width: 100%;   
+    margin: 0;
+}
+input[type=QNREtextarea] {
+    width: 100%;    
+    margin:0;    
+}
+div.QNRE div.TxtFieldSctn div.LftMenuLst .QNREFrmFld ul li, div.QNRE div.TxtFieldSctn div.RgtMenuLst .QNREFrmFld ul li {
+    padding-bottom: 20px;
+}
+div.QNRE div.TxtFieldSctn div.RgtMenuLst div.FrmLstSctn div.QNREInv span.QNREInvTtl {    
+    padding-top: 40px;
+   
+}
+div.QNRE div.TxtFieldSctn div.RgtMenuLst div.FrmLstSctn div.QNREInv {
+    padding: 20px 0 20px 0;
+}
+div.QNRE div.QNREInv div.QNRELftInvLst ul.QNRELst, div.QNRE div.QNREInv div.QNRERgtInvLst ul.QNRELst{
+	margin-left:-40px;
+}
+div.QNRE div.QNREUpload div.ChseFile{
+    width:98%;	
+}
+div.QNRE div.TxtFieldSctn div.RgtMenuLst div.QNREChoseUpload, div.QNRE div.TxtFieldSctn div.RgtMenuLst div.QNREanotherUpload{
+	padding-bottom:40px;
+	}
+#original {
+     width: 98%;
+	display: inline-block;
+}
+#my-button, #upload {
+    width: 25%;
+    left: 66%; 
+	padding: 6px 14px 12px 14px;
+}
+#overlay {
+       width: 64%;   
+    padding: 20px 0 20px 0;
+}
+#addanotherfile {    
+    width: 64%;
+    background-color: #2bb17f;    
+    padding: 6px 0 12px 0;
+    text-align: center;
+}
+div.REVORDBttnSctn {
+    width: 98%;
+	margin-left:1%;
+	margin-right:1%;
+    padding: 40px 0 40px 0;
+}
+div.ProfileLst div.RgtMenuLst div.BttnHldr {
+   padding: 20px 0 40px 0;
+}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst div.TCBttns {   
+    margin: 20px 0 20px 0;
+}
+input[type=agreebttn] {
+    width: auto;
+    }
+div.REVORD div.RevLst div.RWTblCntnt div.RWTblHdrHeading span.InnerTxt {    
+    font-size: 18px;    
+    width: 19%;  
+}
+div.REVORD div.RevLst div.RWTblCntnt div.RWTblHdr {
+    text-align: center;
+}
+div.REVORD div.RevLst div.RWTblCntnt div.RWTblHdr span.InnerTxt {   
+    font-size: 16px; 
+    width: 19%;
+	vertical-align: top;	
+}
+div.REVORD div.RevLst div.RWTblCntnt div.RWTblHdr span.InnerTxtdummy{
+	display:none;
+}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst div.RWTblCntnt div.RWTblHdrHeading span.InnerTxt{
+	width:19%;
+	 font-size: 18px; 
+}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst div.RWTblCntnt div.RWTblHdr span.InnerTxt{		
+	width:19%;
+	vertical-align: top;
+	font-size: 16px; 
+}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst div.RWTblCntnt div.RWTblHdr span.InnerTxt div.BttnHldr{		
+	vertical-align: top;
+	padding: 0px 0 40px 0;
+}
+div.ProfileSctn div.ProfileLst div.RgtMenuLst div.RWTblCntnt div.RWTblHdr span.InnerTxtdummy{		
+	display:none;
+}
+div.TCSctn div.TCCntnt div.TCInnerTxt span.InnerTxt {
+    padding:10px;
+}
+div.TCSctn div.TCCntnt div.TltSctn {
+    padding: 20px 0 0 10px;
+}
+div.REZYFC div.BttnHldr{
+		display:none;
+}
+div.MnHdr div.MainHdrSctn  div.HdrSctn div.RgtTopHdr{
+	display:none;	
+}
+	div.TCSctn div.TCCntnt div.TCInnerTxt span.InnerTxt div.TCInnerTxtLst ul{
+		margin-left:-40px;
+	}
+div.CntctFrm {
+    display: none;    
+}
+div.ContactCntnt div.ContactLogo{  
+    display: none;    
+}
+div.ContactCntnt div.ContactCntnt div.ContactTtl{
+	display: none; 
+}
+div.Contact div.BttnHldr {
+    display: none;
+}
+div.Footer div.MobilefooterSctn{
+	display:block;
+}
+div.Footer div.footerSctn{
+	display:none;
+}
+div.Footer div.MobilefooterSctn div.LftFooterSctn {
+    width: 100%;
+    display: block;
+	text-align: center;
+	padding:0;
+}
+div.Footer div.MobilefooterSctn div.MiddleFooterSctn{
+    width: 100%;
+    display: block;
+	text-align: center;	
+}
+div.Footer div.MobilefooterSctn div.MiddleFooterSctn span.FtrLst, div.Footer div.MobilefooterSctn div.LftFooterSctn span.FtrLst{
+    width: 100%;
+    display: block;
+	text-align: center;
+	padding: 10px 0 10px 0;
+
+}
+div.Footer div.MobilefooterSctn div.MiddleFooterSctn, div.Footer div.MobilefooterSctn div.RgtFooterSctn{
+    width: 100%;
+    display: block;
+	text-align: center;
+	padding:0;
+}
+	div.Footer div.MobilefooterSctn div.RgtFooterSctn ul {
+		margin-left:-40px;
+	}
+	div.Footer div.MobilefooterSctn div.RgtFooterSctn ul li
+{
+	list-style-type:none;
+	display:inline;
+	margin-right:20px;
+}
+div.Footer div.MobilefooterSctn div.LftFooterSctn span.FtrLst, div.Footer div.MobilefooterSctn div.MiddleFooterSctn span.FtrLst
+{
+	color:#ffffff;
+	font-family: 'Muli';
+	font-size:14px;
+	text-decoration: none;
+}
+	div.Footer div.MobilefooterSctn div.LftFooterSctn a{
+		text-decoration: none;
+	}
+
+}
